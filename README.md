@@ -10,5 +10,6 @@ nvcc -- version
 
 %load_ext nvcc_plugin
 
-!nvcc filename.cu -o filename (compile) (next line)
+%%script bash
+nvcc filename.cu -o filename (compile) (next line)
 !./filename (run)
