@@ -1,7 +1,6 @@
 HPC 
 CPP CODES - 
-g++ -fopenmp filename.cpp -o filename
-./filename
+g++ -fopenmp filename.cpp -o filename && ./filename
 
 CUDA codes on google colab-
 nvcc -- version
